@@ -295,17 +295,17 @@ p {
 
 /* GALERIA RESPONSIVE */
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 500px) {
 
     .galeria__grid--img {
         display: grid;
         grid-template-columns: repeat(8, 1fr);
-        grid-template-rows: repeat(2, 200px);
+        grid-template-rows: repeat(2, 30%);
         grid-gap: 1rem;
         margin: auto;
         grid-auto-flow: dense;
         width: 85%;
-        padding-bottom: 90px;
+        padding-bottom: 50px;
     }
 
     .grid-img:nth-child(1) {
