@@ -296,6 +296,10 @@ p {
 /* GALERIA RESPONSIVE */
 
 @media screen and (min-width: 500px) {
+        .galeria__grid {
+        max-width: 1200px;
+        margin: auto;
+    }
 
     .galeria__grid--img {
         display: grid;
