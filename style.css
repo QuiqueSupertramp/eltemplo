@@ -305,7 +305,6 @@ p {
         margin: auto;
         grid-auto-flow: dense;
         width: 85%;
-        padding-bottom: 50px;
     }
 
     .grid-img:nth-child(1) {
